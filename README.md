@@ -27,10 +27,7 @@ The splash screen introduces users to the app with an engaging and modern design
 
 <img src="https://github.com/user-attachments/assets/8f16522f-e636-45e8-b117-fb75ff589cc2" alt="Splash View" width="300"/>
 
-### Key Features of the Splash Screen:
-- **Logo Animation:** Smooth logo transition to provide a dynamic and engaging user experience.
-- **Loading Indicator:** Displays an indicator that reflects the app's loading progress.
-- **Responsive Design:** Looks great on various screen sizes and devices.
+
 
 ## 🚀 Features
 
