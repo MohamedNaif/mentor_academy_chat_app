@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mentor_academy/core/constants/assets_image.dart';
 import 'package:mentor_academy/core/constants/const.dart';
-import 'package:mentor_academy/core/themes/app_color.dart';
+
+import 'package:mentor_academy/core/themes/app_style.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});
@@ -43,24 +44,16 @@ class _SplashViewBodyState extends State<SplashViewBody> {
       children: [
         const Spacer(),
         SizedBox(height: 230, child: Image.asset(AssetsImage.logo)),
-        const Text(
+         Text(
           'WhatsUp',
           textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 42,
-            fontWeight: FontWeight.w700,
-            color: AppColor.secondaryColor,
-          ),
+          style: AppStyle.textStyle42(),
         ),
         const Spacer(),
-        const Text(
+         Text(
           'The Best Chat App Of All Time',
           textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 18,
-            fontWeight: FontWeight.w700,
-            color: AppColor.offWhite,
-          ),
+          style: AppStyle.textStyle18(),
         ),
         const Spacer(),
       ],
